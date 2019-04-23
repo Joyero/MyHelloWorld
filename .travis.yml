@@ -6,14 +6,14 @@ env:
   global:
    # The next declration is the encrypted COVERITY_SCAN_TOKEN, created
    #   via the "travis encrypt" command using the project repo's public key
-   - secure: "TdSvCprPeAUbYYEoZDPocAjOImCbi05o2GLLEdiGQYmLtR7I3qx2MeQ7LjeveVqD0AzS+eAxL+OSjcBS5DA4gXGOVJqQAfclJLJ57MafdoTVzOxGsfqHcyKDo3L3N8nD3AbICeFS+foeCX22bqf9iZiEp0MmxYQ7DvFlc+jCqGk="
+   - secure: "hhCAxq7xx7t95rZcLmw9I6Z538/ajeeP90JP9KD0Wmt3btjHsLTg92he6xpmIfKrLpaQCUF/tRPE5g2wfPQffDwTqZieslv4jj8AXPeNu4mf0r4iPHbEXF+zlIv8KTeYNgfWElVTU4jxE1T2bdwiQZCNJ6Nq30iGoXCwqxPrrv4ZjImKSibvY1cY+SQShXiKJbagritwRDcFcDH/9YjYDbml88YAJmTUC7tZUtr9D/HY9CxnbSMfMPzGE3RsGonMOJre+Z9jFTB4JZBEtWdkCtkdPyw9rla1QDxNyFhDN6ilhiM2puECGDQrNhO18Xl9elnbRGrFpQVsP+d9Ge2tZNHMUx6v0fEmnj2oJl3oUWUZtszp8mTycSIg6ffDEfV9eojowwZjDPhAbunu7Ao0/Vr80vhw7FhrlLxDA8IqPnWudHvu4W8snFmeZfUZ4s4LMwzBce3kli+OQ/tnaQF9UFqg8528bKmq8gG0O+qbuVCO/AGZQaYx2jKvNChS9oX27SpmkKvihEGOi0hjriWoHKvDE76kWKl0NP9mwFicVxl5L6817z2Y/nCGkq9BlsMSaVIgXO8r9mCJsx3m2fJTgbLaf3mma+wraO3mPF8U8DK73YUGpd50Sh5mrpznXOS9IuMlkHLU00CTQQ1B55Y4qC4wNbdkjDXe2vaJaom7mDg="
    
 addons:
   coverity_scan:
     project:
-      name: "daksheshvyas/MyHelloWorld"
+      name: "Joyero/MyHelloWorld"
       description: "Your project description here"
-    notification_email: dakshesh001@hotmail.com
+    notification_email: joyero@hotmail.com
     build_command_prepend: "./configure"
     build_command: "make -j2"
     branch_pattern: master
